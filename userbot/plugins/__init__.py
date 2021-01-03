@@ -26,9 +26,9 @@ from telethon.tl.types import Channel
 
 from userbot import *
 
-from userbot import ALIVE_NAME, bot
+from userbot import ALIVE_NAME, bot, Var
 
-from userbot.uniborgConfig import Config, Var
+from userbot.uniborgConfig import Config
 
 # stats
 
