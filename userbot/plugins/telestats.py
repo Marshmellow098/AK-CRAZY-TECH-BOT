@@ -17,7 +17,7 @@
 from telethon.tl.types import Channel
 
 from userbot import *
-from userbot import ALIVE_NAME, bot, telever
+from userbot import ALIVE_NAME, bot
 from userbot.UniborgConfig import Config, Var
 
 # stats
@@ -48,7 +48,7 @@ else:
 
 TELEUSER = str(ALIVE_NAME) if ALIVE_NAME else "@TeleBotSupport"
 
-ak = f"TeleBot Version: {telever}\n"
+ak = f"Mellowxd Version: `opversion`\n"
 ak += f"Log Group: {log}\n"
 ak += f"Assistant Bot: {bots}\n"
 ak += f"Lydia: {lyd}\n"
