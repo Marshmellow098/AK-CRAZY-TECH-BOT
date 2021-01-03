@@ -28,7 +28,7 @@ from userbot import *
 
 from userbot import ALIVE_NAME, bot, Var
 
-from userbot.telebotConfig import Config
+from userbot.uniborgConfig import Config
 
 # stats
 
