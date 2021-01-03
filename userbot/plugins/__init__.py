@@ -24,11 +24,11 @@
 
 from telethon.tl.types import Channel
 
-from telebot import *
+from userbot import *
 
-from telebot import ALIVE_NAME, bot, Var
+from userbot import ALIVE_NAME, bot, Var
 
-from telebot.telebotConfig import Config
+from userbot.telebotConfig import Config
 
 # stats
 
