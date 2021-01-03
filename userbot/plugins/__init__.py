@@ -32,13 +32,6 @@ from userbot.uniborgConfig import Config
 
 # stats
 
-if Var.PRIVATE_GROUP_ID:
-
-    log = "Enabled"
-
-else:
-
-    log = "Disabled"
 
 if Config.TG_BOT_USER_NAME_BF_HER:
 
@@ -48,13 +41,6 @@ else:
 
     bots = "Disabled"
 
-if Var.LYDIA_API_KEY:
-
-    lyd = "Enabled"
-
-else:
-
-    lyd = "Disabled"
 
 if Config.SUDO_USERS:
 
@@ -76,11 +62,11 @@ TELEUSER = str(ALIVE_NAME) if ALIVE_NAME else "@TeleBotSupport"
 
 tele = f"TeleBot Version: `done`\n"
 
-tele += f"Log Group: {log}\n"
+
 
 tele += f"Assistant Bot: {bots}\n"
 
-tele += f"Lydia: {lyd}\n"
+
 
 tele += f"Sudo: {sudo}\n"
 
