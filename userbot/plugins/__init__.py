@@ -64,13 +64,13 @@ else:
 
     sudo = "Enabled"
 
-if Var.PMSECURITY.lower() == "off":
 
-    pm = "Disabled"
 
-else:
+   
 
-    pm = "Enabled"
+
+
+
 
 TELEUSER = str(ALIVE_NAME) if ALIVE_NAME else "@TeleBotSupport"
 
@@ -84,7 +84,7 @@ tele += f"Lydia: {lyd}\n"
 
 tele += f"Sudo: {sudo}\n"
 
-tele += f"PMSecurity: {pm}\n"
+
 
 tele += f"\nVisit @TeleBotSupport for assistance.\n"
 
