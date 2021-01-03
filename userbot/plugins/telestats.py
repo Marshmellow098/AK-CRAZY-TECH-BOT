@@ -18,7 +18,7 @@ from telethon.tl.types import Channel
 
 from userbot import *
 from userbot import ALIVE_NAME, bot
-from userbot.UniborgConfig import Config, Var
+from userbot.uniborgConfig import Config, Var
 
 # stats
 if Var.PRIVATE_GROUP_ID:
